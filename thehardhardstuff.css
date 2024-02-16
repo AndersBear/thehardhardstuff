@@ -136,6 +136,7 @@ figcaption {color: lawngreen}
   padding: 8px 16px;
   background-color: #7DCEA0;
   font-size: 25px;
+  font-weight: 600;
   scroll-snap-margin-top: 100px;
   scroll-margin-top: 100px;
   border-radius: 15px;
@@ -147,6 +148,8 @@ figcaption {color: lawngreen}
    border: 6px solid black;
    border-style: double;
    background-color: #7DCEA0;
+   font-size: 25px;
+   font-weight: 600;
    padding: 8px 16px;
    border-radius: 15px;
 }
@@ -157,6 +160,8 @@ figcaption {color: lawngreen}
    border: 3px solid black;
    padding: 8px 16px;
    background-color: #7DCEA0;
+   font-size: 25px;
+   font-weight: 600;
    border-radius: 15px;
 }
   
