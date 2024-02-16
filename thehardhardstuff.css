@@ -1,0 +1,175 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+
+
+
+
+h1 {color: green;}
+h2 {font-size: 14; font-family: Comic;}
+
+
+
+body 
+{ background: url("B4.png") 0 0 / cover;
+  background-attachment: fixed;
+  background-color: purple}
+
+P {color: lawngreen}
+P2 {color: black}
+
+
+
+.ImageBorder1
+{
+    border-width: 10px;
+    padding: 8px 16px;
+    border-color: black;
+    border-radius: 25px;
+}
+
+
+
+.button1 {
+  border: 3px solid black;
+  color: black;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #008080;       /* teal */
+  border-radius: 15px;
+}
+
+
+
+
+figcaption {color: lawngreen}
+
+.fixedhomebutton {
+  /* z-index: 8; z-axis (in-out) */
+  position: fixed;
+  top: 1%;
+  left: 1%;
+}
+
+
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #111; //black
+  display: block;
+  scroll-margin-top: 120px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidebar */
+  padding: 10px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+//@media screen and (max-height: 450px) {
+//  .sidenav {padding-top: 15px;}
+//  .sidenav a {font-size: 18px;}
+//}
+
+.nav ol {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  //margin-left: 35%;
+  width: 100%;
+  position: fixed;
+  background-color: Navy;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.4em;
+  font-color: green;
+  line-height: 40px;
+  height: 40px;
+}
+ 
+.nav a {
+  float: center;
+  text-decoration: none;
+  background-color: Navy;
+  color: #7CFC00;  /* Lawngreen */
+  display: inline;
+  padding: 10;
+  margin: 10;
+  border-left: 20;
+  border-top: 25;
+  border-right: 20;
+  border-bottom: 25;
+}
+ 
+.nav a:hover {
+  background-color: yellow;
+}
+ 
+.nav a.active {
+  background-color: PeachPuff;
+  color: Chocolate;
+  cursor: default;
+}
+
+ .boxed {
+  border: 6px solid black;
+  border-style: double;
+  padding: 8px 16px;
+  background-color: #DEB887;
+  font-size: 25px;
+  scroll-snap-margin-top: 100px;
+  scroll-margin-top: 100px;
+  border-radius: 15px;
+}
+ .smallboxed{
+   width: 800px;
+   height: auto;
+   margin: auto;
+   border: 6px solid black;
+   border-style: double;
+   background-color: #DEB887;
+   padding: 8px 16px;
+   border-radius: 15px;
+}
+  
+ .mediumboxed{
+   width: 900px;
+   height: 100px;
+   border: 3px solid black;
+   padding: 8px 16px;
+   background-color: Aliceblue;
+   border-radius: 15px;
+}
+  
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    float: right;
+    display: block;
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    text-align: center;
+  }
+}
